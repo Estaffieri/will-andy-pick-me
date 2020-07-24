@@ -23,3 +23,15 @@ h1 {
   font-family: 'Life Savers', bold;
   text-align: center;
 }
+
+.primary-content-block {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 20%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.woody-image-container {
+
+}
