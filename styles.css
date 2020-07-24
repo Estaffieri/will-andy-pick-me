@@ -25,6 +25,8 @@ h1 {
 }
 
 .content-wrapper {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -36,6 +38,18 @@ h1 {
   margin-left: 60px;
   margin-right: 60px;
 }
-.woody-image-container {
+.woody {
+  width: 100px;
+  height: auto;
+}
 
+.ask-question {
+  background-color: #E6ECF4;
+  width: 70%;
+  height: 20%;
+}
+
+.magic-eight-ball{
+  width: 60px;
+  height: 60px;
 }
