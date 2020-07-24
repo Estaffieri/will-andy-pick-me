@@ -10,3 +10,13 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+header {
+
+}
+
+h1 {
+  color:#1C3455;
+  font-family: 'Life Savers', bold;
+  text-align: center;
+}
