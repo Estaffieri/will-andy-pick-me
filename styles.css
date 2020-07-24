@@ -10,3 +10,79 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+hidden {
+  display: none;
+}
+header {
+  padding: 10px;
+  margin: 10px;
+
+}
+
+h1 {
+  color:#1C3455;
+  font-size: 2em;
+  font-family: 'Life Savers', bold;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.primary-content-block {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 20%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.alignment {
+  display: flex;
+
+}
+.woody-image-container {
+
+}
+
+.woody {
+  width: 100px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.ask-question {
+  background-color: #E6ECF4;
+  padding: 10px;
+  width: 70%;
+  height: 20%;
+}
+.question-input-field {
+  width: 100%;
+
+
+}
+.get-answer-button {
+  border-color: transparent;
+  background-color: #607AA0;
+  color: #FFFFFF;
+  padding: 3px;
+  width: 100%;
+}
+
+.magic-eight-ball-image {
+  display: flex;
+  justify-content: center;
+}
+
+.magic-eight-ball{
+  width: 60px;
+  height: 60px;
+  padding: 50px;
+}

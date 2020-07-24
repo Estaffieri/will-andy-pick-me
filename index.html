@@ -4,32 +4,38 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Life+Savers:800" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
-    <title>Will Andy Pick Me?</title>
+    <title>Will Andy pick me?</title>
   </head>
   <body>
     <header>
       <div class="header-title">
-        <h1>Will Andy Pick Me?</h1>
+        <h1>Will Andy pick me?</h1>
       </div>
     </header>
     <main>
-        <div>
+        <div class="content-wrapper">
           <section class="primary-content-block">
-              <div class="woody-image-container">
-                <img src="./assets/woody.png" alt="Woody from ToyStory">
-              </div>
               <article class="interactive-content-block">
-                <div>
+                <div class="alignment">
                   <section class="ask-question">
                     <input type=text class="question-input-field" placeholder="Ask your question here!"></input>
                     <button class="get-answer-button">Get Your Answer</button>
                     <div class="magic-eight-ball-image">
                       <img class="magic-eight-ball" src="./assets/eight-ball.png" alt= "a black ball with an 8 on the center">
                     </div>
+                    <section class="eight-ball-display hidden">
+                      <div>
+                        <p class= "the-question-asked"></p>
+                        <p class="the-answer"></p>
+                      </div>
+                    </section>
                     <div class="clear-button-container">
                       <button class="clear-button">Clear</button>
                     </div>
                   </section>
+                  <div class="woody-image-container">
+                    <img class="woody" src="./assets/woody.png" alt="Woody from ToyStory">
+                  </div>
                 </div>
               </article>
           </section>
