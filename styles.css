@@ -24,6 +24,10 @@ h1 {
   text-align: center;
 }
 
+.content-wrapper {
+  align-items: center;
+}
+
 .primary-content-block {
   display: flex;
   align-items: center;
