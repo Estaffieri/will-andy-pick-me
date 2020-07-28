@@ -11,9 +11,10 @@ clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
 
-hidden {
+.hidden {
   display: none;
 }
+
 header {
   padding: 10px;
   margin: 10px;
@@ -63,9 +64,10 @@ h1 {
   width: 70%;
   height: 20%;
 }
+
+
 .question-input-field {
   width: 100%;
-
 
 }
 .get-answer-button {
@@ -74,6 +76,7 @@ h1 {
   color: #FFFFFF;
   padding: 3px;
   width: 100%;
+  opacity: 1;
 }
 
 .magic-eight-ball-image {
