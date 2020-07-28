@@ -28,9 +28,12 @@ var answers = ["It is certain.",
  "Outlook not so good",
  "Very doubtful"]
 
+ window.onload = disableAskButton();
+
 
 getYourAnswerBtn.addEventListener("click", theMagicEightBallAnswers);
 clearButton.addEventListener("click", clearAndReset);
+questionInput.addEventListener("keydown",enableAskButton);
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
@@ -49,11 +52,24 @@ function displayAnswer(){
 }
 
 function clearAndReset() {
-  if(questionInput.length !== 0) {
-    console.log("shorts");
+  if (questionInput.length !== 0) {
     eightBallImg.classList.remove("hidden");
     eightBallAnswer.classList.add("hidden");
     askedQuestion.classList.add("hidden");
   }
+}
 
+function enableAskButton() {
+  if (questionInput.length !== 0) {
+    console.log("pants");
+    getYourAnswerBtn.disabled = false;
+    getYourAnswerBtn.style.opacity = 1;
+  } else {
+    disableAskButton()
+  }
+}
+
+function disableAskButton() {
+  getYourAnswerBtn.disabled = true;
+  getYourAnswerBtn.style.opacity = 0.5;
 }
