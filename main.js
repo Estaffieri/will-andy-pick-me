@@ -4,6 +4,8 @@ var eightBallImg = document.querySelector(".magic-eight-ball");
 var eightBallAnswer = document.querySelector(".the-answer");
 var questionInput = document.querySelector(".question-input-field");
 var askedQuestion = document.querySelector(".the-question-asked");
+var clearButton = document.querySelector(".clear-button");
+
 
 var answers = ["It is certain.",
 "It is decidedly so.",
@@ -28,6 +30,7 @@ var answers = ["It is certain.",
 
 
 getYourAnswerBtn.addEventListener("click", theMagicEightBallAnswers);
+clearButton.addEventListener("click", clearAndReset);
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
@@ -43,4 +46,14 @@ function displayAnswer(){
   questionInput.value = "";
   eightBallImg.classList.add("hidden");
   eightBallAnswer.classList.remove("hidden");
+}
+
+function clearAndReset() {
+  if(questionInput.length !== 0) {
+    console.log("shorts");
+    eightBallImg.classList.remove("hidden");
+    eightBallAnswer.classList.add("hidden");
+    askedQuestion.classList.add("hidden");
+  }
+
 }
