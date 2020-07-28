@@ -11,7 +11,7 @@ clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
 
-hidden {
+.hidden {
   display: none;
 }
 header {
